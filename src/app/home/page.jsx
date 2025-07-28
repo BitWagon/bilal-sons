@@ -10,25 +10,25 @@ const products = [
     title: 'Street Hoodie',
     desc: 'Perfect for casual streetwear with premium comfort.',
     price: '$59.99',
-    img: 'https://images.unsplash.com/photo-1618354691213-29b6ba4fba25?auto=format&fit=crop&w=600&q=80',
+    img: '',
   },
   {
     title: 'Denim Jacket',
     desc: 'Classic denim jacket with a vintage feel.',
     price: '$89.99',
-    img: 'https://images.unsplash.com/photo-1555529669-e69cfd619e5d?auto=format&fit=crop&w=600&q=80',
+    img: '',
   },
   {
     title: 'Basic Tee',
     desc: 'Minimalist cotton tee for everyday wear.',
     price: '$19.99',
-    img: 'https://images.unsplash.com/photo-1618354691210-0101c4b27de5?auto=format&fit=crop&w=600&q=80',
+    img: '',
   },
   {
     title: 'Utility Cargo',
     desc: 'Functional cargo pants with a sleek urban fit.',
     price: '$74.99',
-    img: 'https://images.unsplash.com/photo-1620138546430-357dbd2f69d0?auto=format&fit=crop&w=600&q=80',
+    img: '',
   },
 ];
 
