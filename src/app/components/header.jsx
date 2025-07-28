@@ -22,9 +22,9 @@ export default function Header() {
       name: 'Features',
       href: '/features',
       dropdown: [
-        { name: 'Analytics', href: '/features/analytics' },
-        { name: 'Security', href: '/features/security' },
-        { name: 'Performance', href: '/features/performance' },
+        { name: 'Male', href: '/features/males' },
+        { name: 'Female', href: '/features/female' },
+        { name: 'Kids', href: '/features/kids' },
       ],
     },
     { name: 'Pricing', href: '/pricing' },
