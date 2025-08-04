@@ -55,7 +55,7 @@ export default function HomePage() {
             Elevate your wardrobe with our premium clothing collection — designed for comfort and style.
           </motion.p>
           <Link
-            href="/features"
+            href="/features/males"
             className="bg-white text-purple-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
           >
             Explore Collection

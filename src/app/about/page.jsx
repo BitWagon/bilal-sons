@@ -164,9 +164,11 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Start Shopping Today</h2>
           <p className="text-lg mb-6">Style your life with premium fashion for every family member.</p>
+          <a href="/features/female">
           <button className="px-6 py-3 bg-white text-gray-900 font-bold rounded hover:bg-gray-200 transition">
             Browse Collections
           </button>
+          </a>
         </motion.div>
       </section>
     </div>

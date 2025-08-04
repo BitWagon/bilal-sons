@@ -27,7 +27,7 @@ export default function Header() {
         { name: 'Kids', href: '/features/kids' },
       ],
     },
-    { name: 'Pricing', href: '/pricing' },
+    { name: 'Services', href: '/services' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];
