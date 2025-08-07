@@ -46,7 +46,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold tracking-tight">
-          <span className="text-purple-600 dark:text-purple-400">NextBrand</span>
+          <span className="text-[#D2B589] dark:text-[#D2B589]">NextBrand</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -62,8 +62,8 @@ export default function Header() {
                 <button
                   className={`flex items-center gap-1 text-sm font-medium ${
                     pathname.startsWith(link.href)
-                      ? 'text-purple-600 dark:text-purple-400'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-purple-500'
+                      ? 'text-[#D2B589] dark:text-[#D2B589]'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-[#D2B589]'
                   }`}
                 >
                   {link.name}
@@ -104,8 +104,8 @@ export default function Header() {
                   href={link.href}
                   className={`text-sm font-medium ${
                     pathname === link.href
-                      ? 'text-purple-600 dark:text-purple-400'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-purple-500'
+                      ? 'text-[#D2B589] dark:text-[#D2B589]'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-[#D2B589]'
                   }`}
                 >
                   {link.name}
@@ -161,7 +161,7 @@ export default function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="block text-sm pl-4 text-gray-700 dark:text-gray-300 hover:text-purple-500"
+                        className="block text-sm pl-4 text-gray-700 dark:text-gray-300 hover:text-[#D2B589]"
                       >
                         {item.name}
                       </Link>

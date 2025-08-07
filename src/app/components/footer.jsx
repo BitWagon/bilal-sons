@@ -30,7 +30,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 py-10 mt-16">
+    <footer className="bg-[#202F52] border-t border-gray-300 dark:border-gray-700 py-10 mt-16">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-700 dark:text-gray-300">
         {/* Company */}
         <motion.div initial="hidden" animate="visible" variants={fadeInUp} custom={0}>
@@ -44,10 +44,10 @@ export default function Footer() {
         <motion.div initial="hidden" animate="visible" variants={fadeInUp} custom={1}>
           <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-white">Resources</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:text-purple-500">About Us</Link></li>
-            <li><Link href="/blog" className="hover:text-purple-500">Blog</Link></li>
-            <li><Link href="/contact" className="hover:text-purple-500">Contact</Link></li>
-            <li><Link href="/privacy" className="hover:text-purple-500">Privacy Policy</Link></li>
+            <li><Link href="/about" className="hover:text-[#D2B589]">About Us</Link></li>
+            <li><Link href="/blog" className="hover:text-[#D2B589]">Blog</Link></li>
+            <li><Link href="/contact" className="hover:text-[#D2B589]">Contact</Link></li>
+            <li><Link href="/privacy" className="hover:text-[#D2B589]">Privacy Policy</Link></li>
           </ul>
         </motion.div>
 
@@ -62,7 +62,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2 }}
-                className="p-2 rounded-full bg-white dark:bg-gray-800 shadow-md hover:text-purple-500 transition"
+                className="p-2 rounded-full bg-white dark:bg-gray-800 shadow-md hover:text-[#D2B589] transition"
               >
                 <item.icon className="w-5 h-5" />
               </motion.a>
