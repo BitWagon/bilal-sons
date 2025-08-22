@@ -94,10 +94,17 @@ export default function HomePage() {
                 />
                 <div className="absolute inset-0 bg-[#D2B589] opacity-0 group-hover:opacity-20 transition duration-300"></div>
               </div>
-              <div className="p-4">
+              <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold mb-2 font-sans">{item.title}</h3>
                 <p className="text-sm text-gray-600 font-sans">{item.desc}</p>
                 <div className="mt-3 font-bold text-[#D2B589]">{item.price}</div>
+
+                {/* 🔥 Separate Add to Cart Button for each product */}
+                <a href="/cart">
+                <button className="mt-4 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800 transition font-sans">
+                  Add to Cart
+                </button>
+                </a>
               </div>
             </motion.div>
           ))}
