@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sun, Moon, Search, ChevronDown } from 'lucide-react';
+import { Menu, X, Sun, Moon, Search, ChevronDown, ShoppingCart } from 'lucide-react';
 
 export default function Header() {
   const pathname = usePathname();
@@ -121,6 +121,16 @@ export default function Header() {
           <button className="p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition">
             <Search className="w-5 h-5" />
           </button>
+
+          {/* Cart Icon */}
+          <Link
+            href="/cart"
+            className="relative p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition"
+          >
+            <ShoppingCart className="w-5 h-5" />
+            {/* Example badge if you want cart count */}
+            {/* <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full px-1">2</span> */}
+          </Link>
 
           {/* Theme Toggle */}
           <button

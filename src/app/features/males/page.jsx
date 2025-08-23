@@ -81,12 +81,14 @@ export default function MaleClothesPage() {
             <div className="p-4">
               <h3 className="font-semibold text-lg">{item.title}</h3>
               <p className="text-blue-700 font-bold mt-1">{item.price}</p>
+              <a href="/cart">
               <button
                 className="mt-3 px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition"
                 onClick={() => addToCart(item)}
               >
                 Add to Cart
               </button>
+              </a>
             </div>
           </motion.div>
         ))}
